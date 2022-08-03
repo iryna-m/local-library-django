@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="created based structure of the project&#10;created DB models">
+    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Added language model&#10;Register models on the admin side&#10;Customize models view on the admin">
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/migrations/0002_language_book_language.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/migrations/0003_alter_book_options.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -88,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659440641108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added language model&#10;Register models on the admin side&#10;Customize models view on the admin">
+      <created>1659457013048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659457013048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created based structure of the project&#10;created DB models" />
-    <option name="LAST_COMMIT_MESSAGE" value="created based structure of the project&#10;created DB models" />
+    <MESSAGE value="Added language model&#10;Register models on the admin side&#10;Customize models view on the admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added language model&#10;Register models on the admin side&#10;Customize models view on the admin" />
   </component>
 </project>
