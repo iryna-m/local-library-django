@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Added language model&#10;Register models on the admin side&#10;Customize models view on the admin">
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/migrations/0002_language_book_language.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/migrations/0003_alter_book_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/index.html" afterDir="false" />
+    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Created view to serve home page&#10;Added base_generic.html and index.html templates">
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locallibrary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locallibrary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/views.py" afterDir="false" />
     </list>
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659457013048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created view to serve home page&#10;Added base_generic.html and index.html templates">
+      <created>1659537135542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659537135542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created based structure of the project&#10;created DB models" />
     <MESSAGE value="Added language model&#10;Register models on the admin side&#10;Customize models view on the admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added language model&#10;Register models on the admin side&#10;Customize models view on the admin" />
+    <MESSAGE value="Created view to serve home page&#10;Added base_generic.html and index.html templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created view to serve home page&#10;Added base_generic.html and index.html templates" />
   </component>
 </project>
