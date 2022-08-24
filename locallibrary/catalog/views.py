@@ -145,9 +145,6 @@ class BookUpdate(UpdateView):
     fields = '__all__' # Not recommended (potential security issue if more fields added)
 
 
-class BookDelete(DeleteView):
-    model = Book
-    success_url = reverse_lazy('books')
 
 
 
