@@ -4,29 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Added session counts">
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/author_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_renew_librarian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/bookinstance_list_borrowed_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/templates/registration/logged_out.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/templates/registration/password_reset_form.html" afterDir="false" />
+    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Added auth group&#10;Added 'renew', modify password form&#10;Added form to add/delete/update authors">
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/catalog/book_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/templates/base_generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locallibrary/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locallibrary/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locallibrary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/locallibrary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/locallibrary/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/locallibrary/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/locallibrary/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660816504154</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added auth group&#10;Added 'renew', modify password form&#10;Added form to add/delete/update authors">
+      <created>1660910976416</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660910976416</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +148,7 @@
     <MESSAGE value="Created view to serve home page&#10;Added base_generic.html and index.html templates" />
     <MESSAGE value="Created class-based views for book and authors lists and detail&#10;Added templates, update URLs accordingly to new pages" />
     <MESSAGE value="Added session counts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added session counts" />
+    <MESSAGE value="Added auth group&#10;Added 'renew', modify password form&#10;Added form to add/delete/update authors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added auth group&#10;Added 'renew', modify password form&#10;Added form to add/delete/update authors" />
   </component>
 </project>
