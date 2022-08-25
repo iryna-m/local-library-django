@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Remove code for 'delete book' functionality - url conf, class view and form">
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/tests/test_forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locallibrary/catalog/tests/test_views.py" afterDir="false" />
+    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Added unit testing for views, models and forms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locallibrary/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locallibrary/locallibrary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/locallibrary/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661336284051</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added unit testing for views, models and forms">
+      <created>1661426892742</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661426892742</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +168,7 @@
     <MESSAGE value="Added auth group&#10;Added 'renew', modify password form&#10;Added form to add/delete/update authors" />
     <MESSAGE value="Added form to add/delete/update books" />
     <MESSAGE value="Remove code for 'delete book' functionality - url conf, class view and form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove code for 'delete book' functionality - url conf, class view and form" />
+    <MESSAGE value="Added unit testing for views, models and forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added unit testing for views, models and forms" />
   </component>
 </project>
