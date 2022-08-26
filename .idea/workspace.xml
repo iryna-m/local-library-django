@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Updated settings file to get the project ready to Heroku deployment">
-      <change afterPath="$PROJECT_DIR$/locallibrary/runtime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="runtime.txt was added">
+      <change beforePath="$PROJECT_DIR$/locallibrary/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661438154198</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="runtime.txt was added">
+      <created>1661513782611</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661513782611</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +183,7 @@
     <MESSAGE value="Remove code for 'delete book' functionality - url conf, class view and form" />
     <MESSAGE value="Added unit testing for views, models and forms" />
     <MESSAGE value="Updated settings file to get the project ready to Heroku deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated settings file to get the project ready to Heroku deployment" />
+    <MESSAGE value="runtime.txt was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="runtime.txt was added" />
   </component>
 </project>
