@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Move manage.py  to root folder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/manage.py" afterDir="false" />
-    </list>
+    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="'Update ALLOWED_HOSTS with site and development server URL'" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661514394463</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="'Update ALLOWED_HOSTS with site and development server URL'">
+      <created>1661516061848</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1661516061849</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +203,7 @@
     <MESSAGE value="Updated settings file to get the project ready to Heroku deployment" />
     <MESSAGE value="runtime.txt was added" />
     <MESSAGE value="Move manage.py  to root folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move manage.py  to root folder" />
+    <MESSAGE value="'Update ALLOWED_HOSTS with site and development server URL'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'Update ALLOWED_HOSTS with site and development server URL'" />
   </component>
 </project>
