@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="runtime.txt was added">
-      <change beforePath="$PROJECT_DIR$/locallibrary/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="3658aaad-a00d-43d2-906b-84cd7dc90d90" name="Changes" comment="Move manage.py  to root folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/locallibrary/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/locallibrary" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -157,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661513782611</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Move manage.py  to root folder">
+      <created>1661514394462</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661514394463</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +198,7 @@
     <MESSAGE value="Added unit testing for views, models and forms" />
     <MESSAGE value="Updated settings file to get the project ready to Heroku deployment" />
     <MESSAGE value="runtime.txt was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="runtime.txt was added" />
+    <MESSAGE value="Move manage.py  to root folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move manage.py  to root folder" />
   </component>
 </project>
